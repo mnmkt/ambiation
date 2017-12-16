@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ambiation</title>
+        <script src="https://tonejs.github.io/build/Tone.js"></script>
+        <script src="./scripts/Interface.js"></script>
+        <script src="./scripts/NexusUI.js"></script>
+        <script src="./scripts/Keyboard.js"></script>
+        <link rel="stylesheet" type="text/css" href="./scripts/style.css">
+
+    </head>
+    <body>
+
+    <H1> Ambiation <h3>...an ambient app with big ambition</h3></H1>
+      <div id="drone">
+        <div style="  background-color:rgb(249, 185, 185);
+        border:solid 1px #ccc;
+        width:600px;
+        padding:40px;
+        margin:0 auto;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;">
+
+          <span style="subtitle"><h2>Power On</h2></span>
+          <div nexus-ui="toggle" id="power" style="width:40px;height:25px;float:left;margin:20"></div><br>
+
+        <div style="box">
+          <div style="subtitle"><h2>Timbre</h2></div>
+          <div nexus-ui="slider" id="timbre" style="instBox"></div>
+
+          <div style="subtitle"><h2>Pan</h2></div>
+          <div nexus-ui="pan" id="pan" style="instBox"></div>
+
+          <div style="subtitle"><h2>Filter</h2></div>
+          <div nexus-ui="position" id="filter" style="instBox"></div>
+
+      </div>
+
+      <div style="width:auto;overflow:auto">
+          <div style="subtitle"><h2>Spectrum</h2></div>
+        <div nexus-ui="oscilloscope" id="oscilloscope" style="width:600px;height:400px;margin-left:-20px;margin-bottom:-20px;" text-align:"center";></div>
+          </div>
+      </div>
+
+      </div>
+
+    <script src="./app.js"></script>
+    </body>
+</html>

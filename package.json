@@ -1,0 +1,17 @@
+{
+  "name": "ambiation",
+  "version": "1.0.0",
+  "description": "an ambient app + ambition = ambition",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "nodemon": "^1.12.1",
+    "tone": "^0.12.10"
+  }
+}

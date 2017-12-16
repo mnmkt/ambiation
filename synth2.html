@@ -1,0 +1,134 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ambiation</title>
+        <script src="https://tonejs.github.io/build/Tone.js"></script>
+        <script src="./scripts/Interface.js"></script>
+        <script src="./scripts/NexusUI.js"></script>
+        <script src="./scripts/Keyboard.js"></script>
+        <link rel="stylesheet" type="text/css" href="./scripts/style.css">
+
+    </head>
+    <body>
+
+     <!-- <div id="power"></div>
+
+     <div id="echo"></div>
+        <body style="margin:0;padding:0;">
+                  <div style="font-size:20px;padding:20px;text-align:center;margin-top:40px;">
+                    Ambiation
+                  </div>
+<!--
+                 <button id="mobileStart">Press to Init Mobile Audio</button> -->
+                 <H1>Melody Sine Wave 2</H1>
+                  <!-- <div id="drone">
+                    <div style="background-color:rgb(249, 185, 185);border:solid 1px #ccc;width:600px;padding:40px;margin:0 auto;">
+                      <div>
+                        </div> <div nexus-ui="toggle" id="power" style="width:40px;height:25px;float:left;margin:0"></div><span style="height:25px;line-height:15px;margin-left:10px"><h2>Power On</h2></span><div style="overflow:auto">
+                        <div style="width:300px;overflow:auto">
+                          <div nexus-ui="slider" id="timbre" style="width:300px;height:25px;display:inline-block;"></div>
+                          <div style="display:inline-block;float:left;padding:3px 0px 0px"><h2>Timbre</h2></div>
+                        </div>
+                        <div style="width:300px;overflow:auto">
+                          <div nexus-ui="pan" id="pan" style="width:300px;height:25px;display:inline-block;"></div>
+                          <div style="display:inline-block;float:left;padding:3px 0px 0px"><h2>Pan</h2></div>
+                        </div>
+
+                        <div style="width:300px;overflow:auto">
+                          <div nexus-ui="position" id="filter" style="width:300px;height:250px;display:inline-block;"></div>
+                          <div style="display:inline-block;float:left;padding:3px 0px 0px"><h2>Filter</h2></div>
+                        </div>
+
+                      </div>
+
+
+                      <div>
+                        <div nexus-ui="oscilloscope" id="oscilloscope" style="width:600px;height:400px;margin-left:-20px;margin-bottom:-20px;" text-align:"center";></div>
+                      </div>
+                    </div>
+
+                  </div> -->
+
+<!--
+                <div id="melodySynth">
+                    <div nexus-ui="toggle" id="switch"></div>
+                    <div nexus-ui="slider" id="vlu"></div>
+                    <div nexus-ui="dial" id="rvb"></div>
+                    <div nexus-ui="dial" id="dly"></div>
+                </div> -->
+
+
+       <h3> ...now playing</h3>
+
+
+
+    <script src="./synthapp2.js"></script>
+    </body>
+</html>
+
+
+
+<!-- <! doctype html>
+
+<html>
+<head>
+    <title>Ambiation Synth</title>
+    <meta charset="utf-8">
+    <script src="./scripts/NexusUI.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Ambiation Synth</h1>
+    </header>
+
+    <section>
+      <div>
+        <canvas nx="keyboard></canvas>
+      </div>
+      <br />
+
+      <div>
+          <h2>Oscillator Types</h2>
+          <div>
+            <p>OSC 1 TYPE</p>
+            <br />
+            <select onchange="selectOsc1(this.value)">
+              <option value="square"></option>
+              <option value="sawtooth" selected="selected"></option>
+              <option value="triangle"></option>
+            </select>
+          </div>
+          <div>
+              <p>OSC 2 TYPE</p>
+              <br />
+              <select onchange="selectOsc2(this.value)">
+                <option value="square"></option>
+                <option value="sawtooth" selected="selected"></option>
+                <option value="triangle"></option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <h2>Detune Oscillator</h2>
+            <div>
+              <p>Osc 1 detune</p>
+              <br />
+              <canvas nx="dial"></canvas>
+            </div>
+            <div>
+              <p>Osc 1 detune</p>
+              <br />
+              <canvas nx="dial"></canvas>
+            </div>
+          </div>
+
+    </section>
+  </div>
+  <script src="./synthapp.js"></script>
+</body>
+
+</html>

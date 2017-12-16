@@ -1,0 +1,49 @@
+
+.ma {
+  background-color:rgb(249, 185, 185);
+  border:solid 1px #ccc;
+  width:600px;
+  padding:40px;
+  margin:0 auto;
+  border-top-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+
+H1 {
+  text-align: right;
+  letter-spacing: 3px;
+  font-family: Sans-serif;
+  padding-right: 20px;
+}
+
+H2 {
+  font-family: Sans-serif;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+H3 {
+  font-family: Sans-serif;
+  font-size: 13px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.subtitle {
+  height:25px;
+  line-height:15px;
+  margin-left:10px";
+}
+
+.instBox {
+  width:400px;
+  height:250px;
+  display:inline-block;
+  padding: 30px
+}
+
+.box {
+  width:300px;
+  overflow:auto
+}
